@@ -14,28 +14,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 
 <!-- TABLE OF CONTENTS -->
 
@@ -63,17 +41,20 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Vet Clinic Database] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> In this project, I used a relational database to create the initial data structure for a vet clinic. I created a table to store animals' information, insert some data into it, and query it.
 
-**[your_project__name]** is a...
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
+- [x] Database👌
+- [x] Postgresql
+
+
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -102,9 +83,10 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+
+- [ ] Created a database named vet_clinic.
+- [ ] Created a table named animals with corresponding columns upon the requirements💯
+- [ ] Inserted data of 4 animals with the corresponding name, date_of_birth, weight, neutered status, and escape attempts👌
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,9 +94,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+
+> Comming soon.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,7 +110,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need a pc and install ant editor you prefer💯
 
 <!--
 Example command:
@@ -142,14 +124,14 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
+
 Example commands:
 
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  cd Vet-clinic-database
+  git clone https://github.com/osamaashraf6/Vet-clinic-database.git
 ```
---->
+
 
 ### Install
 
@@ -208,17 +190,10 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Author**
+- GitHub: [Osama Ashraf](https://github.com/osamaashraf6)
+- Twitter: [Osama Ashraf](https://twitter.com/OsamaAshraf578?t=l75KjrhQgK4h-vSPfgk1gA&s=08)
+- LinkedIn: [Osama Ashraf](https://www.linkedin.com/in/osama-salem-2a046b203)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -226,11 +201,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> I will create other tables at this project for the clinic💯
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -248,9 +220,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
+
+If you like this project just give me a star to the project😊
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -258,9 +230,8 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Microverse for this opportunity.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
