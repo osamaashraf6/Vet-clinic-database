@@ -37,3 +37,31 @@ ADD species_id INT references species (id);
 -- Add forign key for owners in animals table
 ALTER TABLE animals 
 ADD owner_id  INT references owners (id);
+
+-- 
+
+-- create vets table 
+CREATE TABLE vets(
+   id INT GENERATED ALWAYS AS IDENTITY,
+   name VARCHAR(150) NOT NULL,
+   age INT NOT NULL,
+   date_of_graduation date NOT NULL,
+   PRIMARY KEY(id)
+);
+
+--Specialization table
+CREATE TABLE specializations (
+    species_id INT NOT NULL,
+    vet_id INT NOT NULL,
+    FOREIGN KEY (species_id) REFERENCES species (id),
+    FOREIGN KEY (vet_id) REFERENCES vets (id) 
+);
+
+--visits table
+CREATE TABLE visits (
+    animal_id INT NOT NULL,
+    vet_id INT NOT NULL,
+	 date_of_visit DATE,
+    FOREIGN KEY (animal_id) REFERENCES animals (id),
+    FOREIGN KEY (vet_id) REFERENCES vets (id) 
+);
